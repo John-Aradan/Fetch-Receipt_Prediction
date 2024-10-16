@@ -32,7 +32,9 @@ Welcome to the **Fetch Rewards Receipt Count Predictor**, an interactive app tha
 
 ### Screenshots
 
-(*Placeholder for screenshots*)
+![App Screenshot 1](Resources/photo1.png)
+
+![App Screenshot 2](Resources/photo2.png)
 
 ---
 
