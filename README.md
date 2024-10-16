@@ -2,6 +2,40 @@
 
 This repository contains a machine learning model to predict the number of scanned receipts in the Fetch Rewards app for each month of 2022 based on historical data from 2021. The solution includes data preprocessing, feature engineering, model training, and visualization of results.
 
+## User Interaction App
+
+### Fetch Rewards Receipt Count Predictor
+
+Welcome to the **Fetch Rewards Receipt Count Predictor**, an interactive app that allows you to forecast receipt counts for a given month based on historical data. This tool predicts receipt submissions and offers different visualization options to help you understand trends in the data.
+
+[**Click here to try the app on Hugging Face**](https://huggingface.co/spaces/John-Aradan/Fetch-Receipt_Count_Predictor)
+
+### Features:
+1. **Predict Receipt Counts**: Input a month (from January to December) to forecast the number of receipts.
+2. **Flexible Data Visualization**:
+   - View the trend from January 2021.
+   - Focus on data from the beginning of 2022.
+   - Visualize the last N months for a quick overview.
+
+### How It Works:
+- The app uses a linear regression model, trained on rolling averages and lag values of receipt counts, to generate predictions.
+- Predictions and visualizations are updated dynamically as you interact with the app.
+
+### Usage Instructions:
+1. Select a month (1 for January, 12 for December) to predict future receipt counts.
+2. Choose how you want the data visualized:
+   - From the beginning (January 2021)
+   - Beginning of the current year (2022)
+   - The last N months for a custom view
+3. If you select "Last N months," input the desired number of months for a custom view.
+4. Click **Submit** to generate the prediction and the receipt count chart.
+
+### Screenshots
+
+(*Placeholder for screenshots*)
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
