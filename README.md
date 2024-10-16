@@ -11,20 +11,20 @@ This repository contains a machine learning model to predict the number of scann
 
 ## Project Structure
 
-/Fetch-Rewards-ML
-│
-├── Data/
-│   ├── data_daily.csv
-│   ├── data_days.csv
-│   └── data_months.csv
-│
-├── Model-Params/
-│   ├── model_parameters_all.pkl
-│   └── model_parameters_early.pkl
-│
-├── feature_engineering.py
-├── model_building.py
-└── fetch_prediction_iterative.py
+Codes/  
+│  
+├── Data/  
+│   ├── data_daily.csv  
+│   ├── data_days.csv  
+│   └── data_months.csv  
+│  
+├── Model-Params/  
+│   ├── model_parameters_all.pkl  
+│   └── model_parameters_early.pkl  
+│  
+├── feature_engineering.py  
+├── model_building.py  
+└── fetch_prediction_iterative.py  
 
 
 ## Overview
