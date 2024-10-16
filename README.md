@@ -2,6 +2,16 @@
 
 This repository contains a machine learning model to predict the number of scanned receipts in the Fetch Rewards app for each month of 2022 based on historical data from 2021. The solution includes data preprocessing, feature engineering, model training, and visualization of results.
 
+## Table of Contents
+- [User Interaction App](#User-Interaction-App)
+- [Overview](#overview)
+- [Data](#data)
+- [File Descriptions](#file-descriptions)
+- [Functions Overview](#functions-overview)
+- [Documentations](#Documentations)
+- [How to Run the code](#How-to-Run-the-code)
+
+
 ## User Interaction App
 
 ### Fetch Rewards Receipt Count Predictor
@@ -38,12 +48,7 @@ Welcome to the **Fetch Rewards Receipt Count Predictor**, an interactive app tha
 
 ---
 
-## Table of Contents
 
-- [Overview](#overview)
-- [Data](#data)
-- [File Descriptions](#file-descriptions)
-- [Functions Overview](#functions-overview)
 
 ## Project Structure
 
@@ -143,3 +148,9 @@ This script handles user interaction for making predictions and visualizing resu
 ## Documentations
 
 I have included comments in the python code that would help someone who have not worked with python before understand how the code is being run and results are produced.
+
+## How to Run the code
+
+-If you wish to run the App you can use the link provided in the beginning which would take you to the Huggingface Space where the App is hosted.
+
+-If you wish to run the program locally, you can clone this repository. All required datasets are included in this repo.  You do not have to run the `feature engineering` and `model build` files unless you wish to.  If you would like to just run the predictions please run `fetch_prediction_iterative.py` file.
