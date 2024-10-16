@@ -63,7 +63,7 @@ df.to_csv(os.path.join(data_folder, "data_days.csv"), index=False)  # No index c
 
 ### Processing for monthly data ###
 # Reading the same data again for monthly aggregation
-dfm = pd.read_csv("data_daily.csv")  # Load 'data_daily.csv' again
+dfm = pd.read_csv(os.path.join(data_folder, "data_daily.csv"))
 dfm['# Date'] = pd.to_datetime(dfm['# Date'])  # Convert the date column to proper date format
 dfm['Month'] = dfm['# Date'].dt.month  # Extract month number from the date
 dfm['Quarter'] = dfm['# Date'].dt.quarter  # Extract the quarter of the year
