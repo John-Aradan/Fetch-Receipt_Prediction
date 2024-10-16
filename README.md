@@ -138,3 +138,6 @@ This script handles user interaction for making predictions and visualizing resu
 - **Visualization**: 
   - Allows users to visualize receipt counts over various time frames.
 
+## Documentations
+
+I have included comments in the python code that would help someone who have not worked with python before understand how the code is being run and results are produced.
